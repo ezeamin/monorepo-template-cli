@@ -1,5 +1,5 @@
 {
-  "name": "pjt-monorepo-template-cli",
+  "name": "pjt-mr-cli",
   "version": "0.1.1",
   "description": "",
   "main": "index.js",
