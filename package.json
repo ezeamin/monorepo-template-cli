@@ -1,0 +1,28 @@
+{
+  "name": "monorepo-template-cli",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "link-cli": "pnpm build && (pnpm unlink --global practice-cli || true) && pnpm link --global",
+    "start": "pnpm run build && node dist/index.js"
+  },
+  "bin": {
+    "mr-cli": "./dist/index.js"
+  },
+  "keywords": [],
+  "author": "PJT",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "execa": "^8.0.1"
+  }
+}
