@@ -1,6 +1,6 @@
 {
-  "name": "monorepo-template-cli",
-  "version": "0.1.0",
+  "name": "pjt-monorepo-template-cli",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "type": "module",
