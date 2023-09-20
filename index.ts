@@ -7,7 +7,7 @@ import chalk from 'chalk';
 
 // Hardcoded repository URL
 const repositoryUrl =
-  'https://gitlab.justucuman.gov.ar/desarrollo/fe-template-next';
+  'https://gitlab.justucuman.gov.ar/desarrollo/proyecto-sistemas-judiciales/fe-template-next';
 
 const program = new Command();
 
